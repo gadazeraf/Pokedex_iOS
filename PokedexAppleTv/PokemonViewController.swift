@@ -9,41 +9,33 @@
 import UIKit
 import Alamofire
 
-class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class PokemonViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     
     var pokemons: [Pokemon] = PokemonCollection().all()
-    @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var collectionView: UICollectionView!
     var poke: [Pokemon] = PokemonCollection().all()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let activityIndicator = UIActivityIndicatorView(style: .gray)
-        view.addSubview(activityIndicator)
-        activityIndicator.center = CGPoint(x: view.frame.size.width*0.5, y: view.frame.size.height*0.5)
-        activityIndicator.startAnimating()
         loadData(completionHandler: { result in
             self.poke = result
             print("reload")
-            self.tableView.reloadData()
+            self.collectionView.reloadData()
         })
-        activityIndicator.stopAnimating()
         print("launch")
-        tableView.estimatedRowHeight = 44
-        tableView.delegate = self
-        tableView.dataSource = self
+        collectionView.delegate = self
+        collectionView.dataSource = self
         // Do any additional setup after loading the view.
     }
     
     
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return poke.count
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell") as! ContentTableViewCell
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as! ContentCollectionViewCell
         cell.PokName.text = poke[indexPath.row].name
-        cell.PokNumber.text = "#"+String(poke[indexPath.row].pokedex_number)
         cell.PokImg.download(string: "http://pokedex-mti.twitchytv.live/images/\(poke[indexPath.row].id).png")
         print("http://pokedex-mti.twitchytv.live/images/\(poke[indexPath.row].id).png")
         return cell
@@ -79,25 +71,23 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                             type2name = nil
                         }
                         pokemons.append(Pokemon(id: id as! Int, name: name as! String, pokedex_number: pokedex_number as! Int, height: height as! String, weight: weight as! String, desc: description as! String, pre_evolution_id: pre_evolution_id_data as? Int, type1: type1name as! String, type2: type2name))
-                        print(id, name, pre_evolution_id_data)
-                        self.tableView.reloadData()
                     }
                 case .failure(_):
                     print("image search error occured")
                 }
-            completionHandler(pokemons) })
+                completionHandler(pokemons) })
         
     }
-
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         performSegue(withIdentifier: "PokemonDetailSegue", sender: self)
-        tableView.deselectRow(at: indexPath, animated: true)
+        collectionView.deselectItem(at: indexPath, animated: true)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if  segue.identifier == "PokemonDetailSegue",
             let destination = segue.destination as? PokemonDetailViewController,
-            let pokIndex = tableView.indexPathForSelectedRow?.row
+            let pokIndex = collectionView.indexPathsForSelectedItems?.first?.row
         {
             destination.name = poke[pokIndex].name
             destination.id = String(poke[pokIndex].id)
@@ -109,13 +99,21 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             destination.type2 = poke[pokIndex].type2 ?? ""
         }
     }
-
+    
 }
 
-class ContentTableViewCell: UITableViewCell {
+
+class ContentCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var PokImg: UIImageView!
     @IBOutlet weak var PokName: UILabel!
-    @IBOutlet weak var PokNumber: UILabel!
+    
+    override func didUpdateFocus(in context: UIFocusUpdateContext, with coordinator: UIFocusAnimationCoordinator) {
+        if (self.isFocused) {
+            PokName.isHidden = false
+        } else {
+            PokName.isHidden = true
+        }
+    }
 }
 
 import SDWebImage
