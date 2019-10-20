@@ -17,6 +17,16 @@ target 'PokedexAppleTv' do
 
   pod 'Alamofire'
   pod 'SDWebImage'
-  # Pods for Pokedex
+  # Pods for PokedexAppleTv
+
+end
+
+target 'PokedexCoreData' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'Alamofire'
+  pod 'SDWebImage'
+  # Pods for PokedexCoreData
 
 end

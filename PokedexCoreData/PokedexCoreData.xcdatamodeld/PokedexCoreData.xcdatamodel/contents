@@ -1,4 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14490.99" systemVersion="19A583" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Attack" representedClassName="Attack" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="type" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PokemonType" syncable="YES"/>
+    </entity>
+    <entity name="Pokemon" representedClassName="Pokemon" syncable="YES" codeGenerationType="class">
+        <attribute name="level" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="nickname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shiny" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="attack1" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Attack" syncable="YES"/>
+        <relationship name="attack2" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Attack" syncable="YES"/>
+        <relationship name="attack3" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Attack" syncable="YES"/>
+        <relationship name="attack4" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Attack" syncable="YES"/>
+        <relationship name="species" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Species" syncable="YES"/>
+    </entity>
+    <entity name="PokemonType" representedClassName="PokemonType" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Species" representedClassName="Species" syncable="YES" codeGenerationType="class">
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="height" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pokedex_number" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="weight" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="pre_evolution_id" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Species" syncable="YES"/>
+        <relationship name="type1" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PokemonType" syncable="YES"/>
+        <relationship name="type2" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PokemonType" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Attack" positionX="185.2578125" positionY="105.76171875" width="128" height="90"/>
+        <element name="Pokemon" positionX="-55.4921875" positionY="415.11328125" width="128" height="165"/>
+        <element name="PokemonType" positionX="144.0234375" positionY="-41.6640625" width="128" height="75"/>
+        <element name="Species" positionX="-63" positionY="-18" width="128" height="178"/>
+    </elements>
 </model>

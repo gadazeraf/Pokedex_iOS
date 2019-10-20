@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -106,8 +106,9 @@
 		60DF01508087199FCA2F848F3861F4B7 /* UIImage+ForceDecode.h in Headers */ = {isa = PBXBuildFile; fileRef = 83A17FD44CD400208C124397AE8F730C /* UIImage+ForceDecode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		626E7518E087BD6AFE51B8195702E37F /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAB8C5F3A0504EC2050CA31EF6CF0F2 /* ResponseSerialization.swift */; };
 		6360C447B983D95FF01205CD93F5ED4D /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D828308DB89838147DC58C6138D2720 /* TaskDelegate.swift */; };
-		63B99B81C068190CC57E42A3537D5B6A /* Pods-PokedexAppleTv-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65FF620224D3AB60BCB72AFF640B9CD3 /* Pods-PokedexAppleTv-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63B99B81C068190CC57E42A3537D5B6A /* Pods-PokedexAppleTv-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1C59652ED6F38F17019218232817EE2 /* Pods-PokedexAppleTv-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		64D5EC566E50364CC6F7DD160841F1E7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D79229E59B634236E5A39C886A02873 /* NetworkReachabilityManager.swift */; };
+		655C67CDB48ACD52E311AA1956212E20 /* Pods-PokedexCoreData-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EF8EC8F8D6475ABD65A87F9013A16BA /* Pods-PokedexCoreData-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6699F5E23F2D1FD079AF478279D8C821 /* SDImageCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = F38FC1E1EAD234B70F2EAB01BEDB9B02 /* SDImageCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		671E2695977D5666283D5E1CCD7C4A73 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECAF2F6A7DAA6D4D3AFE0258B46E0207 /* ImageIO.framework */; };
 		674F391CD438783EFB712817B94013E0 /* Alamofire-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F67AD74B2D948FE331323B5FCABEBF4 /* Alamofire-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -136,7 +137,7 @@
 		78BCFC849F445C93D66BDCEA743AB7C3 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 77881EA26F004D917C4BCF3CA692171F /* SDWebImageCompat.m */; };
 		79162721FCA5784005D0E78F7903DFAB /* UIImage+Transform.h in Headers */ = {isa = PBXBuildFile; fileRef = 61661E0CA2CADFC4B017B8A9C812F6AA /* UIImage+Transform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7B57DB88C093B02F029A56466CD03C10 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE9392254B04C481CD45B8490A4928A /* SessionDelegate.swift */; };
-		7BEA3BFBE404009D4F245898188211B2 /* Pods-Pokedex-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A2FE14429D26D8DF6A123E285FD7B1D /* Pods-Pokedex-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BEA3BFBE404009D4F245898188211B2 /* Pods-Pokedex-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A4A5F06A9F2B058683CEE1B0D3377FA /* Pods-Pokedex-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C81C19B14D77DCC85E1BD52E1A322FB /* SDWebImageError.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C129E9B0C9C8D3BF7AD5D9845BA1EA8 /* SDWebImageError.m */; };
 		7DF009417C571EAA282A726D3D041931 /* SDImageGIFCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE7F5C816CB0E627644BFDA9E84A531 /* SDImageGIFCoder.m */; };
 		7EEC28642E10D57E89C2EA47984EAD82 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D79229E59B634236E5A39C886A02873 /* NetworkReachabilityManager.swift */; };
@@ -153,7 +154,7 @@
 		85EE128FB6361FD9AC1E3C7057C4879B /* SDAnimatedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = CB3908C23FD7326CD63AF4A72F2E30FF /* SDAnimatedImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		862AEFAEC2302428AED48550B9B8C656 /* SDMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 88435BC47457E91C969FB6E73A571296 /* SDMemoryCache.m */; };
 		86BE9B7F69562EC2095D58C12D97E441 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AE02F419EFF75E330FB4B73EAE8ED9 /* UIImage+MultiFormat.m */; };
-		8827523B9FF1676273BCA12AC9C54635 /* Pods-PokedexAppleTv-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 419FC1E406D44B0BF64E11D21F71DA5D /* Pods-PokedexAppleTv-dummy.m */; };
+		8827523B9FF1676273BCA12AC9C54635 /* Pods-PokedexAppleTv-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88EC8A0101C445E8FCBA3E269C510898 /* Pods-PokedexAppleTv-dummy.m */; };
 		883DBDCFF5F1BDECFFDA2B8604609699 /* SDImageFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 28118CECDB35C769904D151F4CE884BB /* SDImageFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		890EE5FF56B0ADF0BDA840DBD273C456 /* SDWebImageTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 4797706C3AC75A06375238FABD459EED /* SDWebImageTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		89B2E54309AF3A7D9EAC642375A062C4 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D828308DB89838147DC58C6138D2720 /* TaskDelegate.swift */; };
@@ -197,6 +198,7 @@
 		ABD5564B24031F8AA941406B0473A19B /* SDAsyncBlockOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DD3EDB5D92A07366F03ABF3B4686AF /* SDAsyncBlockOperation.m */; };
 		ABDB202C34024EFA5F3957BF6AA1C86C /* UIImage+Metadata.h in Headers */ = {isa = PBXBuildFile; fileRef = D5FCF8F3E2F29ADF3C3EC8042C2EE4CD /* UIImage+Metadata.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC20713165514B7D2C99DA84654A0CB7 /* UIImage+ForceDecode.h in Headers */ = {isa = PBXBuildFile; fileRef = 83A17FD44CD400208C124397AE8F730C /* UIImage+ForceDecode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE27ADF9F9A10719286232C6E98DB813 /* Pods-PokedexCoreData-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD8F50647BDE787400E81ECEF85E764 /* Pods-PokedexCoreData-dummy.m */; };
 		AF08BCDA5875B60D790721CA5386EBC0 /* SDmetamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BF98581D99FEAC8F76943711879CC8D /* SDmetamacros.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		B2B4EF9B57EE58B24946DD95C9FFB252 /* SDWebImageCacheSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F00804AB3DAACBBC001FBF49C39EBCD /* SDWebImageCacheSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B46D6484634BAA3BB5A40E8AC5183488 /* SDImageGIFCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE7F5C816CB0E627644BFDA9E84A531 /* SDImageGIFCoder.m */; };
@@ -212,7 +214,7 @@
 		BCD3F5965C5586C39776556D3901FC39 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A00080CC58EC1AC562B19BED97331B /* DispatchQueue+Alamofire.swift */; };
 		BD09A778CDC42E01076F55A2046C8920 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F1E900021B2B5C35C1D04DAF283B08 /* SDWebImageDownloaderOperation.m */; };
 		BD578DBF2721DC0CDF95996FDDE70225 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 508E7645D79E9E98948CCC155688003B /* Foundation.framework */; };
-		BD5BA7F8B6C27EAC3330D54CB308F68C /* Pods-Pokedex-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC974E3BC439BA86950306EAC0CE6614 /* Pods-Pokedex-dummy.m */; };
+		BD5BA7F8B6C27EAC3330D54CB308F68C /* Pods-Pokedex-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B2469664A41B91B6B596C54980A991 /* Pods-Pokedex-dummy.m */; };
 		BDDB6FE30804A38CD6B750288B6EC547 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A6F833D30CADAF7BD93401343BA87FC /* Foundation.framework */; };
 		BE32E3E031D7F767171438CF4EC792DD /* SDImageCoderHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 82592266589F58A9524DA5A3D0389779 /* SDImageCoderHelper.m */; };
 		C03A5EA9046956CF4D3F74D218B37695 /* SDImageTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 75AE2075CC893B5C52D78BFAEECAD846 /* SDImageTransformer.m */; };
@@ -245,6 +247,7 @@
 		D4DF791D515BB681AD1511173BF9F92E /* SDWebImageDownloaderConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = D685082FE55DDC03857B28CD5D234938 /* SDWebImageDownloaderConfig.m */; };
 		D840E34D1CD2DFCF2C5AA7A6635F18BA /* SDAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = F0753BC8453AB7CC6A6BF60666651316 /* SDAnimatedImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D903A04505B8499773E1A1668316DBB8 /* SDWebImageDownloaderConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = D685082FE55DDC03857B28CD5D234938 /* SDWebImageDownloaderConfig.m */; };
+		D9C6BFF7D66108CD502064215D6FD058 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A6F833D30CADAF7BD93401343BA87FC /* Foundation.framework */; };
 		DA2F76C5D47429C137B95936A7FDC907 /* SDImageCodersManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 45CADB8FD2C0A20D30BF41F1A41E9042 /* SDImageCodersManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAE2293693F8C6F1C7CD7A058B9ED776 /* NSImage+Compatibility.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C4EC61E17417C38FCB5A197C7657D4 /* NSImage+Compatibility.m */; };
 		DAE63CAC4CE5FE0E11A8A7C7549E31C3 /* NSData+ImageContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = 791A17717EFC87FA69D910BAE9CF2C97 /* NSData+ImageContentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -292,6 +295,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		26C816FEA671FC368CDFA08E1730CF4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FA0D3F2F380C88414707C800CAB82D9;
+			remoteInfo = "Alamofire-iOS";
+		};
 		3AEF020EA15D3C3AD0D0DDFE1460CCBA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -313,6 +323,13 @@
 			remoteGlobalIDString = 6C61C4B54358EE2778A1E74337B4F83C;
 			remoteInfo = "Alamofire-tvOS";
 		};
+		D02CC345267F670253E1D6B31A3197CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49EE80C89B3A4FE81F4FC7A4AA2F2675;
+			remoteInfo = "SDWebImage-iOS";
+		};
 		D557200B86D5AB4DF42F09590937CE65 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -325,7 +342,6 @@
 /* Begin PBXFileReference section */
 		0548E695303B504191477621BEA389A0 /* SDImageFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageFrame.m; path = SDWebImage/SDImageFrame.m; sourceTree = "<group>"; };
 		07FEB1C383E77FD27A3BD7A729C198D9 /* SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = SDWebImage/SDImageCache.h; sourceTree = "<group>"; };
-		08215987A829509EDE8B997D067FC32B /* Pods-PokedexAppleTv.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PokedexAppleTv.modulemap"; sourceTree = "<group>"; };
 		097FA45CEC2F32C02FD2DA7B79797365 /* SDImageIOCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageIOCoder.m; path = SDWebImage/SDImageIOCoder.m; sourceTree = "<group>"; };
 		0D14D008C002CD05B46E3071032D8AF7 /* SDAnimatedImageRep.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImageRep.h; path = SDWebImage/SDAnimatedImageRep.h; sourceTree = "<group>"; };
 		0D79229E59B634236E5A39C886A02873 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
@@ -341,73 +357,76 @@
 		17404B7FE2589D5EFF7FD368DFAEC0E4 /* SDWebImage-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDWebImage-iOS-dummy.m"; sourceTree = "<group>"; };
 		18F37EA9A0C8FFD584230BF352E2C2AD /* SDImageAPNGCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageAPNGCoder.h; path = SDWebImage/SDImageAPNGCoder.h; sourceTree = "<group>"; };
 		19BD9EE27284E44BFB51F6A6945FC296 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		1B3653109DA2CA9CD2BF0895A1B833E4 /* Pods_PokedexAppleTv.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PokedexAppleTv.framework; path = "Pods-PokedexAppleTv.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DFFF5496BA2C38077B8E3755EA31888 /* UIImage+Transform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Transform.m"; path = "SDWebImage/UIImage+Transform.m"; sourceTree = "<group>"; };
 		1E18C6265C2D6D3DDA033389C6D09D61 /* SDImageAssetManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageAssetManager.m; path = SDWebImage/Private/SDImageAssetManager.m; sourceTree = "<group>"; };
 		1EB1459A479E8805645E99589D0EFA0A /* SDInternalMacros.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDInternalMacros.m; path = SDWebImage/Private/SDInternalMacros.m; sourceTree = "<group>"; };
 		1F806EEB22346731FEFB4AE9DDBBACAC /* SDWebImage-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SDWebImage-tvOS-dummy.m"; path = "../SDWebImage-tvOS/SDWebImage-tvOS-dummy.m"; sourceTree = "<group>"; };
+		200751BB2978FFECB56E2DD554743A55 /* Pods-PokedexAppleTv-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PokedexAppleTv-acknowledgements.plist"; sourceTree = "<group>"; };
 		20960E701F096374EFF49EF3CA6BA73F /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		214618C8EA6D34DDC019FBE4257BC185 /* SDWebImageCacheSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCacheSerializer.m; path = SDWebImage/SDWebImageCacheSerializer.m; sourceTree = "<group>"; };
 		21B3949277D0D506F9070C7910198251 /* SDWebImageError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageError.h; path = SDWebImage/SDWebImageError.h; sourceTree = "<group>"; };
 		2371217C032B5AF4A5079B0427AA5A58 /* SDImageCachesManagerOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCachesManagerOperation.h; path = SDWebImage/Private/SDImageCachesManagerOperation.h; sourceTree = "<group>"; };
 		25CF4DA5BC39621E4FBCD34DCBC252DF /* NSBezierPath+RoundedCorners.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBezierPath+RoundedCorners.m"; path = "SDWebImage/Private/NSBezierPath+RoundedCorners.m"; sourceTree = "<group>"; };
 		2674618742650BA4AC3D10C826FEC41A /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = SDWebImage/SDWebImagePrefetcher.m; sourceTree = "<group>"; };
-		26BBB0C5045F2391797594BFFBEEB88D /* Pods-Pokedex-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pokedex-Info.plist"; sourceTree = "<group>"; };
 		27778C2BC6E7C8434C927C10E9ABC7D8 /* SDImageCachesManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCachesManager.h; path = SDWebImage/SDImageCachesManager.h; sourceTree = "<group>"; };
 		28118CECDB35C769904D151F4CE884BB /* SDImageFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageFrame.h; path = SDWebImage/SDImageFrame.h; sourceTree = "<group>"; };
 		28DFC71CDCCA59EC6302522E4899050F /* Alamofire-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "Alamofire-tvOS.modulemap"; path = "../Alamofire-tvOS/Alamofire-tvOS.modulemap"; sourceTree = "<group>"; };
 		2BE3F01C2142C6B7EB38B49867B6F619 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
 		2C129E9B0C9C8D3BF7AD5D9845BA1EA8 /* SDWebImageError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageError.m; path = SDWebImage/SDWebImageError.m; sourceTree = "<group>"; };
+		2CD54C6E7CEE68CACCB5BC5AFE8A79D2 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = "Alamofire-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D03345CF4827ED6702566DF88805CBE /* Pods-PokedexCoreData-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PokedexCoreData-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2EFC4FE424239958F2C71A5F6F524650 /* SDAnimatedImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SDAnimatedImageView+WebCache.h"; path = "SDWebImage/SDAnimatedImageView+WebCache.h"; sourceTree = "<group>"; };
-		30FA4EC030133A552FBFDFDFBB1FF6A2 /* Pods-PokedexAppleTv.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PokedexAppleTv.release.xcconfig"; sourceTree = "<group>"; };
 		317D88B02993227A4A29C65544EBB194 /* SDAsyncBlockOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAsyncBlockOperation.h; path = SDWebImage/Private/SDAsyncBlockOperation.h; sourceTree = "<group>"; };
+		32B2469664A41B91B6B596C54980A991 /* Pods-Pokedex-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Pokedex-dummy.m"; sourceTree = "<group>"; };
 		333AA089D20B21A456C4F72064015FF6 /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/UIButton+WebCache.m"; sourceTree = "<group>"; };
 		34474EF418B874AAFC96C49CD6033F81 /* Alamofire-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Alamofire-iOS.modulemap"; sourceTree = "<group>"; };
 		35591A03A54A057E6C4042788385BF9B /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = SDWebImage/SDWebImagePrefetcher.h; sourceTree = "<group>"; };
-		359367E8E0EE488E72E26CC76C9A7A4E /* Pods-Pokedex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pokedex.release.xcconfig"; sourceTree = "<group>"; };
 		365CA9C77A995DCE665FB81DED7B87ED /* UIImage+ForceDecode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ForceDecode.m"; path = "SDWebImage/UIImage+ForceDecode.m"; sourceTree = "<group>"; };
 		36766A74EA28510A60D322DD25DEA300 /* UIImage+Metadata.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Metadata.m"; path = "SDWebImage/UIImage+Metadata.m"; sourceTree = "<group>"; };
 		37E2BB4ED89A915F8D0B3D3C2C113FFB /* SDImageCacheDefine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCacheDefine.m; path = SDWebImage/SDImageCacheDefine.m; sourceTree = "<group>"; };
 		3ADB0AF3F7689173E27B09FBFA459EDC /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		3C320FC2E44B4351E3A9E79F1D743763 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDWebImage.framework; path = "SDWebImage-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CDF3B72C2728446BC8F832BA082ABFA /* SDWebImageDefine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDefine.m; path = SDWebImage/SDWebImageDefine.m; sourceTree = "<group>"; };
 		3CFCE6281B869F20256F1344457E265E /* SDImageCacheConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCacheConfig.m; path = SDWebImage/SDImageCacheConfig.m; sourceTree = "<group>"; };
 		3E39B0EB44FB14B6BC49E14A9787FD8F /* SDWebImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = SDWebImage/SDWebImageDownloader.m; sourceTree = "<group>"; };
-		3F5F03018BE1649A94A0EDDEA811253E /* Pods-PokedexAppleTv.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PokedexAppleTv.debug.xcconfig"; sourceTree = "<group>"; };
 		3F67AD74B2D948FE331323B5FCABEBF4 /* Alamofire-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-iOS-umbrella.h"; sourceTree = "<group>"; };
 		40EA825B0F4F047C2D013FD4229DA799 /* SDWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageManager.h; path = SDWebImage/SDWebImageManager.h; sourceTree = "<group>"; };
 		4140D273DD279BFE17137034BE2B5637 /* Alamofire-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-iOS-dummy.m"; sourceTree = "<group>"; };
-		419FC1E406D44B0BF64E11D21F71DA5D /* Pods-PokedexAppleTv-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PokedexAppleTv-dummy.m"; sourceTree = "<group>"; };
-		41D0389BA82E994C6E359A057559CB4E /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		427291BEE64C9B3D6B9E19EF304EBEB2 /* SDWebImage-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "SDWebImage-tvOS.modulemap"; path = "../SDWebImage-tvOS/SDWebImage-tvOS.modulemap"; sourceTree = "<group>"; };
+		437C2F8BF26CCAE6AD0D1AF56D59E2AD /* Pods-Pokedex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pokedex.release.xcconfig"; sourceTree = "<group>"; };
 		43C8A4974B72B59A2C09390D4D85E46A /* SDWebImageCacheKeyFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCacheKeyFilter.m; path = SDWebImage/SDWebImageCacheKeyFilter.m; sourceTree = "<group>"; };
 		44C534FDC9CEB67BEC448E2457B3B4F8 /* SDImageLoadersManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageLoadersManager.m; path = SDWebImage/SDImageLoadersManager.m; sourceTree = "<group>"; };
 		45CADB8FD2C0A20D30BF41F1A41E9042 /* SDImageCodersManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCodersManager.h; path = SDWebImage/SDImageCodersManager.h; sourceTree = "<group>"; };
-		476290BE11899564A1FB602A98275303 /* Pods_Pokedex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pokedex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45D748EE3E67D5DA81588D394A3EF1F4 /* Pods-Pokedex-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pokedex-Info.plist"; sourceTree = "<group>"; };
 		4797706C3AC75A06375238FABD459EED /* SDWebImageTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageTransition.h; path = SDWebImage/SDWebImageTransition.h; sourceTree = "<group>"; };
 		4866A0457C6EC82EB8107EAA2FF03D48 /* Alamofire-tvOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "Alamofire-tvOS-Info.plist"; path = "../Alamofire-tvOS/Alamofire-tvOS-Info.plist"; sourceTree = "<group>"; };
 		4BA20196345B5649102AA7700246EA66 /* SDWebImageDownloaderRequestModifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderRequestModifier.m; path = SDWebImage/SDWebImageDownloaderRequestModifier.m; sourceTree = "<group>"; };
-		4BEDC010D73A3FEB5B6E48AFFC9E55C3 /* Pods-Pokedex-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pokedex-frameworks.sh"; sourceTree = "<group>"; };
+		4C8DE3B7BB77A5C5FF7C6093874DB5F5 /* Pods-PokedexCoreData-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PokedexCoreData-frameworks.sh"; sourceTree = "<group>"; };
 		4DAD7A1E6D8FDE90229C53C7AB85A360 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderOperation.h; path = SDWebImage/SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
 		4E99D63391D7C879A5B7AA9B57C50B4A /* SDWebImageCacheKeyFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCacheKeyFilter.h; path = SDWebImage/SDWebImageCacheKeyFilter.h; sourceTree = "<group>"; };
 		508E7645D79E9E98948CCC155688003B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		50E5A807BE0F862E1CC40439219B86B1 /* Alamofire-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Alamofire-tvOS-dummy.m"; path = "../Alamofire-tvOS/Alamofire-tvOS-dummy.m"; sourceTree = "<group>"; };
 		5141A28A1ED274FC8567BF96D240D7C1 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HighlightedWebCache.h"; path = "SDWebImage/UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
 		51B27A6144FADF8A1EA7D4FBD1C5A6AE /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		56A7B2CFFF0B07B4F6A6AE439CD4463A /* Pods-Pokedex-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Pokedex-acknowledgements.markdown"; sourceTree = "<group>"; };
 		574A314CA1BF92AE0A0729249122A6E0 /* SDDiskCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDDiskCache.m; path = SDWebImage/SDDiskCache.m; sourceTree = "<group>"; };
 		57DEF086CD1DD67AEC660E2E94ED911B /* SDImageCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCoder.m; path = SDWebImage/SDImageCoder.m; sourceTree = "<group>"; };
 		59F69B19BA69B159493CCD08914AC48A /* SDWebImageTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageTransition.m; path = SDWebImage/SDWebImageTransition.m; sourceTree = "<group>"; };
 		5A6F833D30CADAF7BD93401343BA87FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5CF5D7E10BA339E9463D5542AFF6A688 /* SDInternalMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDInternalMacros.h; path = SDWebImage/Private/SDInternalMacros.h; sourceTree = "<group>"; };
+		5D33CAEE421877A87E97433728B2964C /* Pods-Pokedex-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pokedex-frameworks.sh"; sourceTree = "<group>"; };
 		60056E911FCEF1AD419A5F2AB8C442F9 /* UIImage+GIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "SDWebImage/UIImage+GIF.h"; sourceTree = "<group>"; };
 		61661E0CA2CADFC4B017B8A9C812F6AA /* UIImage+Transform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Transform.h"; path = "SDWebImage/UIImage+Transform.h"; sourceTree = "<group>"; };
 		6316F8472F084A109F8246109DF3C206 /* SDImageAPNGCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageAPNGCoder.m; path = SDWebImage/SDImageAPNGCoder.m; sourceTree = "<group>"; };
+		634A40FFA7DA6E4026BE21B5BF156015 /* Pods-PokedexAppleTv-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PokedexAppleTv-Info.plist"; sourceTree = "<group>"; };
 		637A6434A5A44396DA9C4081FC4A245C /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
-		65FF620224D3AB60BCB72AFF640B9CD3 /* Pods-PokedexAppleTv-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PokedexAppleTv-umbrella.h"; sourceTree = "<group>"; };
+		644382094B19A893EAB39138DA811527 /* Pods-PokedexAppleTv.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PokedexAppleTv.debug.xcconfig"; sourceTree = "<group>"; };
 		67BECAC1FAD66D81B572871BFF44A620 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
 		683571B54FBB3D36427CCAD7A22E67F1 /* SDWebImageIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageIndicator.m; path = SDWebImage/SDWebImageIndicator.m; sourceTree = "<group>"; };
 		6EAB8C5F3A0504EC2050CA31EF6CF0F2 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
 		6EE7F5C816CB0E627644BFDA9E84A531 /* SDImageGIFCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageGIFCoder.m; path = SDWebImage/SDImageGIFCoder.m; sourceTree = "<group>"; };
 		734D566B5F00F5601A992ED923FF1837 /* SDImageTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageTransformer.h; path = SDWebImage/SDImageTransformer.h; sourceTree = "<group>"; };
-		7517FCDD4E26983FD13B92E930F3A538 /* Pods-PokedexAppleTv-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PokedexAppleTv-acknowledgements.markdown"; sourceTree = "<group>"; };
 		75414BE1E3D0FF63235FEA2A23A0A7D5 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
 		75572A982B4703CF87959F8D2052EA9A /* SDWebImage-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "SDWebImage-iOS.modulemap"; sourceTree = "<group>"; };
 		75AE2075CC893B5C52D78BFAEECAD846 /* SDImageTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageTransformer.m; path = SDWebImage/SDImageTransformer.m; sourceTree = "<group>"; };
@@ -426,53 +445,60 @@
 		833636E7201E285E664B8F8E57E7F095 /* SDImageLoadersManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageLoadersManager.h; path = SDWebImage/SDImageLoadersManager.h; sourceTree = "<group>"; };
 		8379F8FF32A4FB573B577E4E0A1DA79B /* Alamofire-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Alamofire-iOS.xcconfig"; sourceTree = "<group>"; };
 		83A17FD44CD400208C124397AE8F730C /* UIImage+ForceDecode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ForceDecode.h"; path = "SDWebImage/UIImage+ForceDecode.h"; sourceTree = "<group>"; };
+		83BB2BFEAA94C39DCD4792855E354BBB /* Pods-PokedexAppleTv.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PokedexAppleTv.release.xcconfig"; sourceTree = "<group>"; };
 		841EF8733C0AA639222E80DE9B337896 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebCache.h"; path = "SDWebImage/UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		876250BC1407B7F2C67885E0B7F4CBEE /* Pods-Pokedex-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pokedex-acknowledgements.plist"; sourceTree = "<group>"; };
 		88435BC47457E91C969FB6E73A571296 /* SDMemoryCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDMemoryCache.m; path = SDWebImage/SDMemoryCache.m; sourceTree = "<group>"; };
+		88EC8A0101C445E8FCBA3E269C510898 /* Pods-PokedexAppleTv-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PokedexAppleTv-dummy.m"; sourceTree = "<group>"; };
 		895A9035C52CDA43834CA4CBEDE682D4 /* UIView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCache.m"; path = "SDWebImage/UIView+WebCache.m"; sourceTree = "<group>"; };
 		89960A8063B4A45B4A7029DDDBD6E9FD /* SDWebImage-tvOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SDWebImage-tvOS-prefix.pch"; path = "../SDWebImage-tvOS/SDWebImage-tvOS-prefix.pch"; sourceTree = "<group>"; };
+		8A4A5F06A9F2B058683CEE1B0D3377FA /* Pods-Pokedex-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Pokedex-umbrella.h"; sourceTree = "<group>"; };
 		8A8B8F8AA5985ACAB9FCD165FF146424 /* UIView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCache.h"; path = "SDWebImage/UIView+WebCache.h"; sourceTree = "<group>"; };
+		8AC9F23DA035DEAEAF26CF37AEA589C3 /* Pods-PokedexCoreData.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PokedexCoreData.modulemap"; sourceTree = "<group>"; };
 		8BA8AF3F30040E868AAB4C5FB238005A /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = SDWebImage/SDWebImageManager.m; sourceTree = "<group>"; };
 		8C34CE72784DBECB4D239B5ED17DD4D5 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
 		8CE136FA7C3D821C8C71739B41B6270C /* SDWebImageDownloaderConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderConfig.h; path = SDWebImage/SDWebImageDownloaderConfig.h; sourceTree = "<group>"; };
+		8EF8EC8F8D6475ABD65A87F9013A16BA /* Pods-PokedexCoreData-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PokedexCoreData-umbrella.h"; sourceTree = "<group>"; };
 		8FF83AE49DB12032D71B0DE6511EA5C6 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		9086D61A5C57AA102CE9D4863ADCAFA3 /* Pods-PokedexCoreData-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PokedexCoreData-acknowledgements.plist"; sourceTree = "<group>"; };
 		9393449D52FA8D6533D54EE2B1EB6BD5 /* SDImageGIFCoderInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageGIFCoderInternal.h; path = SDWebImage/Private/SDImageGIFCoderInternal.h; sourceTree = "<group>"; };
 		93A3E0AA56E2551383E961A2041ECDDC /* SDMemoryCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDMemoryCache.h; path = SDWebImage/SDMemoryCache.h; sourceTree = "<group>"; };
-		94149FFA6D31D08E56D9974F30B240B5 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9596EEB7A229F57FA402BD46094D703F /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 		95A7559F3FD123269DA915D6E329E66C /* NSImage+Compatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSImage+Compatibility.h"; path = "SDWebImage/NSImage+Compatibility.h"; sourceTree = "<group>"; };
 		96A00080CC58EC1AC562B19BED97331B /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
-		98D0F03A2FA8B264A1A7DAF9B5CA6DF1 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96DF1CB95C121460D541D51E2661947C /* Pods-Pokedex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pokedex.debug.xcconfig"; sourceTree = "<group>"; };
 		995D8F3750326A7D9A01202D3D9A75D8 /* SDAnimatedImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAnimatedImage.m; path = SDWebImage/SDAnimatedImage.m; sourceTree = "<group>"; };
-		9A2FE14429D26D8DF6A123E285FD7B1D /* Pods-Pokedex-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Pokedex-umbrella.h"; sourceTree = "<group>"; };
 		9BF98581D99FEAC8F76943711879CC8D /* SDmetamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDmetamacros.h; path = SDWebImage/Private/SDmetamacros.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F515C0AB423A4BDCB5B9EFB47474540 /* Pods-PokedexAppleTv-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PokedexAppleTv-frameworks.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F98253F34B6545946C8A7EF70587064 /* SDImageCacheConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCacheConfig.h; path = SDWebImage/SDImageCacheConfig.h; sourceTree = "<group>"; };
+		9FEADA874DC873BF575598A1DEBEE130 /* Pods-PokedexCoreData.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PokedexCoreData.debug.xcconfig"; sourceTree = "<group>"; };
+		A28611EAEEDB34408AF7E78857866D1A /* Pods-PokedexCoreData.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PokedexCoreData.release.xcconfig"; sourceTree = "<group>"; };
 		A4AB91A6E2E0A02DB0890F54A376264F /* SDWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWeakProxy.m; path = SDWebImage/Private/SDWeakProxy.m; sourceTree = "<group>"; };
 		A52A3BF303066D6BE708202426CCBEC7 /* SDImageGraphics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageGraphics.h; path = SDWebImage/SDImageGraphics.h; sourceTree = "<group>"; };
-		A561EB17EAF2FADDE1843B0F1E72395A /* Pods_PokedexAppleTv.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PokedexAppleTv.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A702ECBA0DC38B75DC2C9A134387AE2B /* NSButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSButton+WebCache.m"; path = "SDWebImage/NSButton+WebCache.m"; sourceTree = "<group>"; };
+		A838EE48BDBDA1C123703D2C7163040D /* Pods-PokedexAppleTv-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PokedexAppleTv-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AAF3666D4657336FE9855FE19F54C703 /* SDWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOperation.h; path = SDWebImage/SDWebImageOperation.h; sourceTree = "<group>"; };
 		AD417A00FEB946032BF8A6F7351AE80F /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		AD88605D49E218DF5255EA476D72B3D9 /* UIColor+HexString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+HexString.h"; path = "SDWebImage/Private/UIColor+HexString.h"; sourceTree = "<group>"; };
-		B03F5F1C0707B6E9562494CD51BBD00F /* Pods-Pokedex.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Pokedex.modulemap"; sourceTree = "<group>"; };
 		B08F8455533A955DBE3ADD76D078A40F /* SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = SDWebImage/SDWebImageCompat.h; sourceTree = "<group>"; };
 		B517DDBC4BED078CAFD03A55433AF275 /* SDImageLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageLoader.h; path = SDWebImage/SDImageLoader.h; sourceTree = "<group>"; };
 		B5ABFFC84D757FF65644AC59882F8495 /* Alamofire-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-iOS-prefix.pch"; sourceTree = "<group>"; };
 		B5DC6B73C0A4AF46BAACBA0A3AD97DBF /* SDImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCache.m; path = SDWebImage/SDImageCache.m; sourceTree = "<group>"; };
 		B8C1BF8E6E592DB06E56AC52B4E2E7F7 /* UIColor+HexString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+HexString.m"; path = "SDWebImage/Private/UIColor+HexString.m"; sourceTree = "<group>"; };
+		BABECDBDA55005AD1BD0DADFD0820E4B /* Pods_Pokedex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Pokedex.framework; path = "Pods-Pokedex.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAF88E5F015C77CD1A9032798698B798 /* Pods-PokedexAppleTv-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PokedexAppleTv-frameworks.sh"; sourceTree = "<group>"; };
 		BB5F6CDE3BE447BFEB3EF2DDD8A78195 /* SDWebImage-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-iOS-prefix.pch"; sourceTree = "<group>"; };
 		BBBE5F0D4DFD4AFFF98C6F1FB1A3AC92 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCacheOperation.m"; path = "SDWebImage/UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
-		BC88965E090A10BCF6EE03417034975D /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1C59652ED6F38F17019218232817EE2 /* Pods-PokedexAppleTv-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PokedexAppleTv-umbrella.h"; sourceTree = "<group>"; };
 		C43362198189DB9B12F0A910131F9820 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HighlightedWebCache.m"; path = "SDWebImage/UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		C55863A05C3FECE7941A9CCE8DE28826 /* Pods-Pokedex.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Pokedex.modulemap"; sourceTree = "<group>"; };
+		C573806EC818EBAB11BEC488904C5CF3 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = "Alamofire-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C58921E2E3B7F2998BCB0F9C758BC90E /* NSBezierPath+RoundedCorners.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBezierPath+RoundedCorners.h"; path = "SDWebImage/Private/NSBezierPath+RoundedCorners.h"; sourceTree = "<group>"; };
 		C849D152EFF16B1F3D00327D2D4501CC /* SDImageLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageLoader.m; path = SDWebImage/SDImageLoader.m; sourceTree = "<group>"; };
 		CA39C4DA86E89AD3205B7EDB808C3819 /* SDAnimatedImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAnimatedImageView.m; path = SDWebImage/SDAnimatedImageView.m; sourceTree = "<group>"; };
 		CB3908C23FD7326CD63AF4A72F2E30FF /* SDAnimatedImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImage.h; path = SDWebImage/SDAnimatedImage.h; sourceTree = "<group>"; };
 		CB992394E493E764AC9AB842BCE5A05D /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
-		CBEA8BB7280EECE30D85D2275EAEAD67 /* Pods-PokedexAppleTv-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PokedexAppleTv-acknowledgements.plist"; sourceTree = "<group>"; };
 		CD6C1719708A075310B763488A2AED98 /* SDWebImage-tvOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "SDWebImage-tvOS-Info.plist"; path = "../SDWebImage-tvOS/SDWebImage-tvOS-Info.plist"; sourceTree = "<group>"; };
-		CDFEE2568F73BC6EC2774081B9B4533B /* Pods-PokedexAppleTv-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PokedexAppleTv-Info.plist"; sourceTree = "<group>"; };
 		CEEC036910823ACFB76671D55BB7C28F /* SDImageIOCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageIOCoder.h; path = SDWebImage/SDImageIOCoder.h; sourceTree = "<group>"; };
 		D0658289E9354219FA24B0B94DDCE5D9 /* SDWebImage-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SDWebImage-iOS-Info.plist"; sourceTree = "<group>"; };
 		D3E36B9E44EBE589D546E75A81E412C8 /* SDWebImageDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDefine.h; path = SDWebImage/SDWebImageDefine.h; sourceTree = "<group>"; };
@@ -482,13 +508,13 @@
 		D685082FE55DDC03857B28CD5D234938 /* SDWebImageDownloaderConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderConfig.m; path = SDWebImage/SDWebImageDownloaderConfig.m; sourceTree = "<group>"; };
 		D767CFF492003C9FA5F100369563C297 /* Alamofire-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Alamofire-tvOS-umbrella.h"; path = "../Alamofire-tvOS/Alamofire-tvOS-umbrella.h"; sourceTree = "<group>"; };
 		D7CD70ECF8238965F244A19BEA863D15 /* SDAnimatedImageRep.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAnimatedImageRep.m; path = SDWebImage/SDAnimatedImageRep.m; sourceTree = "<group>"; };
-		D827C048E46AD92CB772C7CAC6BD7D9F /* Pods-Pokedex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pokedex.debug.xcconfig"; sourceTree = "<group>"; };
+		D8840CDD746C04F4736339657C013F65 /* Pods_PokedexCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PokedexCoreData.framework; path = "Pods-PokedexCoreData.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8C4EC61E17417C38FCB5A197C7657D4 /* NSImage+Compatibility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSImage+Compatibility.m"; path = "SDWebImage/NSImage+Compatibility.m"; sourceTree = "<group>"; };
 		D9DD3EDB5D92A07366F03ABF3B4686AF /* SDAsyncBlockOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAsyncBlockOperation.m; path = SDWebImage/Private/SDAsyncBlockOperation.m; sourceTree = "<group>"; };
-		DC974E3BC439BA86950306EAC0CE6614 /* Pods-Pokedex-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Pokedex-dummy.m"; sourceTree = "<group>"; };
 		DCE9392254B04C481CD45B8490A4928A /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		DE15AB08B7203F9BDA872A9116FEE2C8 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDWebImage.framework; path = "SDWebImage-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE6D6ABEE81EAD63DD3B9528EF990F44 /* Alamofire-tvOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Alamofire-tvOS-prefix.pch"; path = "../Alamofire-tvOS/Alamofire-tvOS-prefix.pch"; sourceTree = "<group>"; };
-		E0264AC593A24ACECD83D0A4003A46AC /* Pods-Pokedex-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pokedex-acknowledgements.plist"; sourceTree = "<group>"; };
+		DFD8F50647BDE787400E81ECEF85E764 /* Pods-PokedexCoreData-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PokedexCoreData-dummy.m"; sourceTree = "<group>"; };
 		E42BDD00103F11FEE04152AA065D5375 /* SDWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImage.h; path = WebImage/SDWebImage.h; sourceTree = "<group>"; };
 		E5A24454E1BAE59A3184773972420C2F /* SDDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDDiskCache.h; path = SDWebImage/SDDiskCache.h; sourceTree = "<group>"; };
 		E674A0BAE5909C114162E124F17DC79B /* SDImageCachesManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCachesManager.m; path = SDWebImage/SDImageCachesManager.m; sourceTree = "<group>"; };
@@ -496,6 +522,8 @@
 		ECAF2F6A7DAA6D4D3AFE0258B46E0207 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
 		EFD230FDA0C3B9A821A91DD43F78A88B /* UIImage+GIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+GIF.m"; path = "SDWebImage/UIImage+GIF.m"; sourceTree = "<group>"; };
 		F0753BC8453AB7CC6A6BF60666651316 /* SDAnimatedImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImageView.h; path = SDWebImage/SDAnimatedImageView.h; sourceTree = "<group>"; };
+		F1AC719695B1BE40AFEA23A92335DC34 /* Pods-PokedexCoreData-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PokedexCoreData-Info.plist"; sourceTree = "<group>"; };
+		F2C4304DCB2E86F75283C97FF7610190 /* Pods-PokedexAppleTv.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PokedexAppleTv.modulemap"; sourceTree = "<group>"; };
 		F2C436D4BE32CDA252F7A24B9B00B61A /* NSData+ImageContentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+ImageContentType.m"; path = "SDWebImage/NSData+ImageContentType.m"; sourceTree = "<group>"; };
 		F2F1E900021B2B5C35C1D04DAF283B08 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderOperation.m; path = SDWebImage/SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
 		F38FC1E1EAD234B70F2EAB01BEDB9B02 /* SDImageCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCoder.h; path = SDWebImage/SDImageCoder.h; sourceTree = "<group>"; };
@@ -505,7 +533,6 @@
 		F6647379A513C3B6C348F0ABFCCE88F5 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "SDWebImage/UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		F9FEFD3A861C7E3F046BC67045162425 /* SDWebImageDownloaderRequestModifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderRequestModifier.h; path = SDWebImage/SDWebImageDownloaderRequestModifier.h; sourceTree = "<group>"; };
 		FA24E83A224BF7E03484CBF8B491865E /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "SDWebImage/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
-		FD6DAFF887DE181BDDE2DE7AAAB1327D /* Pods-Pokedex-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Pokedex-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -523,6 +550,14 @@
 			files = (
 				A275A0C7C9EA1D42A0A1FD11BF524F91 /* Foundation.framework in Frameworks */,
 				671E2695977D5666283D5E1CCD7C4A73 /* ImageIO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CFB8F795FE4CEC4B81926F1A87CA53C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9C6BFF7D66108CD502064215D6FD058 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,6 +615,23 @@
 			path = "../Target Support Files/SDWebImage-iOS";
 			sourceTree = "<group>";
 		};
+		2D0A6ED7B40F17D530A8D40F3C724095 /* Pods-PokedexAppleTv */ = {
+			isa = PBXGroup;
+			children = (
+				F2C4304DCB2E86F75283C97FF7610190 /* Pods-PokedexAppleTv.modulemap */,
+				A838EE48BDBDA1C123703D2C7163040D /* Pods-PokedexAppleTv-acknowledgements.markdown */,
+				200751BB2978FFECB56E2DD554743A55 /* Pods-PokedexAppleTv-acknowledgements.plist */,
+				88EC8A0101C445E8FCBA3E269C510898 /* Pods-PokedexAppleTv-dummy.m */,
+				BAF88E5F015C77CD1A9032798698B798 /* Pods-PokedexAppleTv-frameworks.sh */,
+				634A40FFA7DA6E4026BE21B5BF156015 /* Pods-PokedexAppleTv-Info.plist */,
+				C1C59652ED6F38F17019218232817EE2 /* Pods-PokedexAppleTv-umbrella.h */,
+				644382094B19A893EAB39138DA811527 /* Pods-PokedexAppleTv.debug.xcconfig */,
+				83BB2BFEAA94C39DCD4792855E354BBB /* Pods-PokedexAppleTv.release.xcconfig */,
+			);
+			name = "Pods-PokedexAppleTv";
+			path = "Target Support Files/Pods-PokedexAppleTv";
+			sourceTree = "<group>";
+		};
 		387F438A379C87EA0A2470B06ED2E7F2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -587,19 +639,6 @@
 				941E9916E217FDD6FBC4D731C1A0B7B9 /* SDWebImage */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		56A93BC7AB69B5ECF96C304FBAFEF1FA /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				41D0389BA82E994C6E359A057559CB4E /* Alamofire.framework */,
-				BC88965E090A10BCF6EE03417034975D /* Alamofire.framework */,
-				476290BE11899564A1FB602A98275303 /* Pods_Pokedex.framework */,
-				A561EB17EAF2FADDE1843B0F1E72395A /* Pods_PokedexAppleTv.framework */,
-				94149FFA6D31D08E56D9974F30B240B5 /* SDWebImage.framework */,
-				98D0F03A2FA8B264A1A7DAF9B5CA6DF1 /* SDWebImage.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		73724756F07BAADC80F3735BCDD698E0 /* Alamofire */ = {
@@ -624,41 +663,35 @@
 				75414BE1E3D0FF63235FEA2A23A0A7D5 /* Validation.swift */,
 				E6C93D8B603EE196D4FF22C128996118 /* Support Files */,
 			);
+			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
-		7B5DA9A90E9A1AE5B5618B9E8CDC75F5 /* Pods-PokedexAppleTv */ = {
+		789547A8684B1D0AC6EB71513188EE78 /* Pods-Pokedex */ = {
 			isa = PBXGroup;
 			children = (
-				08215987A829509EDE8B997D067FC32B /* Pods-PokedexAppleTv.modulemap */,
-				7517FCDD4E26983FD13B92E930F3A538 /* Pods-PokedexAppleTv-acknowledgements.markdown */,
-				CBEA8BB7280EECE30D85D2275EAEAD67 /* Pods-PokedexAppleTv-acknowledgements.plist */,
-				419FC1E406D44B0BF64E11D21F71DA5D /* Pods-PokedexAppleTv-dummy.m */,
-				9F515C0AB423A4BDCB5B9EFB47474540 /* Pods-PokedexAppleTv-frameworks.sh */,
-				CDFEE2568F73BC6EC2774081B9B4533B /* Pods-PokedexAppleTv-Info.plist */,
-				65FF620224D3AB60BCB72AFF640B9CD3 /* Pods-PokedexAppleTv-umbrella.h */,
-				3F5F03018BE1649A94A0EDDEA811253E /* Pods-PokedexAppleTv.debug.xcconfig */,
-				30FA4EC030133A552FBFDFDFBB1FF6A2 /* Pods-PokedexAppleTv.release.xcconfig */,
-			);
-			name = "Pods-PokedexAppleTv";
-			path = "Target Support Files/Pods-PokedexAppleTv";
-			sourceTree = "<group>";
-		};
-		7F46E7685C64B901D0FECC2A8124E87F /* Pods-Pokedex */ = {
-			isa = PBXGroup;
-			children = (
-				B03F5F1C0707B6E9562494CD51BBD00F /* Pods-Pokedex.modulemap */,
-				FD6DAFF887DE181BDDE2DE7AAAB1327D /* Pods-Pokedex-acknowledgements.markdown */,
-				E0264AC593A24ACECD83D0A4003A46AC /* Pods-Pokedex-acknowledgements.plist */,
-				DC974E3BC439BA86950306EAC0CE6614 /* Pods-Pokedex-dummy.m */,
-				4BEDC010D73A3FEB5B6E48AFFC9E55C3 /* Pods-Pokedex-frameworks.sh */,
-				26BBB0C5045F2391797594BFFBEEB88D /* Pods-Pokedex-Info.plist */,
-				9A2FE14429D26D8DF6A123E285FD7B1D /* Pods-Pokedex-umbrella.h */,
-				D827C048E46AD92CB772C7CAC6BD7D9F /* Pods-Pokedex.debug.xcconfig */,
-				359367E8E0EE488E72E26CC76C9A7A4E /* Pods-Pokedex.release.xcconfig */,
+				C55863A05C3FECE7941A9CCE8DE28826 /* Pods-Pokedex.modulemap */,
+				56A7B2CFFF0B07B4F6A6AE439CD4463A /* Pods-Pokedex-acknowledgements.markdown */,
+				876250BC1407B7F2C67885E0B7F4CBEE /* Pods-Pokedex-acknowledgements.plist */,
+				32B2469664A41B91B6B596C54980A991 /* Pods-Pokedex-dummy.m */,
+				5D33CAEE421877A87E97433728B2964C /* Pods-Pokedex-frameworks.sh */,
+				45D748EE3E67D5DA81588D394A3EF1F4 /* Pods-Pokedex-Info.plist */,
+				8A4A5F06A9F2B058683CEE1B0D3377FA /* Pods-Pokedex-umbrella.h */,
+				96DF1CB95C121460D541D51E2661947C /* Pods-Pokedex.debug.xcconfig */,
+				437C2F8BF26CCAE6AD0D1AF56D59E2AD /* Pods-Pokedex.release.xcconfig */,
 			);
 			name = "Pods-Pokedex";
 			path = "Target Support Files/Pods-Pokedex";
+			sourceTree = "<group>";
+		};
+		927831338FD4F9D7593D993BD78AE3C3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				789547A8684B1D0AC6EB71513188EE78 /* Pods-Pokedex */,
+				2D0A6ED7B40F17D530A8D40F3C724095 /* Pods-PokedexAppleTv */,
+				9BDB914E2617E740D57294460EE8863A /* Pods-PokedexCoreData */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		941E9916E217FDD6FBC4D731C1A0B7B9 /* SDWebImage */ = {
@@ -667,7 +700,25 @@
 				AE6BE88DBAB5F5FAC1A7A9453611BACD /* Core */,
 				05CCFB4C69B1BDF95BCD4D623B32A443 /* Support Files */,
 			);
+			name = SDWebImage;
 			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		9BDB914E2617E740D57294460EE8863A /* Pods-PokedexCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				8AC9F23DA035DEAEAF26CF37AEA589C3 /* Pods-PokedexCoreData.modulemap */,
+				2D03345CF4827ED6702566DF88805CBE /* Pods-PokedexCoreData-acknowledgements.markdown */,
+				9086D61A5C57AA102CE9D4863ADCAFA3 /* Pods-PokedexCoreData-acknowledgements.plist */,
+				DFD8F50647BDE787400E81ECEF85E764 /* Pods-PokedexCoreData-dummy.m */,
+				4C8DE3B7BB77A5C5FF7C6093874DB5F5 /* Pods-PokedexCoreData-frameworks.sh */,
+				F1AC719695B1BE40AFEA23A92335DC34 /* Pods-PokedexCoreData-Info.plist */,
+				8EF8EC8F8D6475ABD65A87F9013A16BA /* Pods-PokedexCoreData-umbrella.h */,
+				9FEADA874DC873BF575598A1DEBEE130 /* Pods-PokedexCoreData.debug.xcconfig */,
+				A28611EAEEDB34408AF7E78857866D1A /* Pods-PokedexCoreData.release.xcconfig */,
+			);
+			name = "Pods-PokedexCoreData";
+			path = "Target Support Files/Pods-PokedexCoreData";
 			sourceTree = "<group>";
 		};
 		AD5425924FE10000CF4FF255ECA3C3EE /* Frameworks */ = {
@@ -801,14 +852,28 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
+		BCD6A24A2A93E65960D9CFF7A19AF3A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C573806EC818EBAB11BEC488904C5CF3 /* Alamofire.framework */,
+				2CD54C6E7CEE68CACCB5BC5AFE8A79D2 /* Alamofire.framework */,
+				BABECDBDA55005AD1BD0DADFD0820E4B /* Pods_Pokedex.framework */,
+				1B3653109DA2CA9CD2BF0895A1B833E4 /* Pods_PokedexAppleTv.framework */,
+				D8840CDD746C04F4736339657C013F65 /* Pods_PokedexCoreData.framework */,
+				3C320FC2E44B4351E3A9E79F1D743763 /* SDWebImage.framework */,
+				DE15AB08B7203F9BDA872A9116FEE2C8 /* SDWebImage.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				AD5425924FE10000CF4FF255ECA3C3EE /* Frameworks */,
 				387F438A379C87EA0A2470B06ED2E7F2 /* Pods */,
-				56A93BC7AB69B5ECF96C304FBAFEF1FA /* Products */,
-				EBCE888D722C3E9F4A2D5C8A5E5A9F61 /* Targets Support Files */,
+				BCD6A24A2A93E65960D9CFF7A19AF3A7 /* Products */,
+				927831338FD4F9D7593D993BD78AE3C3 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -848,15 +913,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Alamofire-iOS";
-			sourceTree = "<group>";
-		};
-		EBCE888D722C3E9F4A2D5C8A5E5A9F61 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7F46E7685C64B901D0FECC2A8124E87F /* Pods-Pokedex */,
-				7B5DA9A90E9A1AE5B5618B9E8CDC75F5 /* Pods-PokedexAppleTv */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -953,6 +1009,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6D847FC31E6B09CC0A671BD236AA46F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655C67CDB48ACD52E311AA1956212E20 /* Pods-PokedexCoreData-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B73BC6E5273D67C603CBF0F99EED0087 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1046,7 +1110,7 @@
 			);
 			name = "SDWebImage-iOS";
 			productName = "SDWebImage-iOS";
-			productReference = 94149FFA6D31D08E56D9974F30B240B5 /* SDWebImage.framework */;
+			productReference = 3C320FC2E44B4351E3A9E79F1D743763 /* SDWebImage.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		6C61C4B54358EE2778A1E74337B4F83C /* Alamofire-tvOS */ = {
@@ -1064,7 +1128,27 @@
 			);
 			name = "Alamofire-tvOS";
 			productName = "Alamofire-tvOS";
-			productReference = BC88965E090A10BCF6EE03417034975D /* Alamofire.framework */;
+			productReference = 2CD54C6E7CEE68CACCB5BC5AFE8A79D2 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7C8E2DD424938B4ABF9183D6848C927F /* Pods-PokedexCoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DF0C42EC5DDC4FF4BE38A6F40FCB85B /* Build configuration list for PBXNativeTarget "Pods-PokedexCoreData" */;
+			buildPhases = (
+				6D847FC31E6B09CC0A671BD236AA46F5 /* Headers */,
+				4E9763962E8F21F50665EA8B560B713F /* Sources */,
+				1CFB8F795FE4CEC4B81926F1A87CA53C /* Frameworks */,
+				0E0D682E4F29EC70A959CACAC49359E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1316F2B1ADAE015F60BF160B584C969D /* PBXTargetDependency */,
+				5799BBD5576CBAB1AED2EC18282F222B /* PBXTargetDependency */,
+			);
+			name = "Pods-PokedexCoreData";
+			productName = "Pods-PokedexCoreData";
+			productReference = D8840CDD746C04F4736339657C013F65 /* Pods_PokedexCoreData.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		81A52D362151CC9F58A355157EB5C0C2 /* Pods-PokedexAppleTv */ = {
@@ -1084,7 +1168,7 @@
 			);
 			name = "Pods-PokedexAppleTv";
 			productName = "Pods-PokedexAppleTv";
-			productReference = A561EB17EAF2FADDE1843B0F1E72395A /* Pods_PokedexAppleTv.framework */;
+			productReference = 1B3653109DA2CA9CD2BF0895A1B833E4 /* Pods_PokedexAppleTv.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9FA0D3F2F380C88414707C800CAB82D9 /* Alamofire-iOS */ = {
@@ -1102,7 +1186,7 @@
 			);
 			name = "Alamofire-iOS";
 			productName = "Alamofire-iOS";
-			productReference = 41D0389BA82E994C6E359A057559CB4E /* Alamofire.framework */;
+			productReference = C573806EC818EBAB11BEC488904C5CF3 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D290485F9CA9CC62340D5EF562B705A8 /* SDWebImage-tvOS */ = {
@@ -1120,7 +1204,7 @@
 			);
 			name = "SDWebImage-tvOS";
 			productName = "SDWebImage-tvOS";
-			productReference = 98D0F03A2FA8B264A1A7DAF9B5CA6DF1 /* SDWebImage.framework */;
+			productReference = DE15AB08B7203F9BDA872A9116FEE2C8 /* SDWebImage.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E4E9D6FAD102A3E59090092EAFA5A1CB /* Pods-Pokedex */ = {
@@ -1140,7 +1224,7 @@
 			);
 			name = "Pods-Pokedex";
 			productName = "Pods-Pokedex";
-			productReference = 476290BE11899564A1FB602A98275303 /* Pods_Pokedex.framework */;
+			productReference = BABECDBDA55005AD1BD0DADFD0820E4B /* Pods_Pokedex.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1150,18 +1234,17 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 56A93BC7AB69B5ECF96C304FBAFEF1FA /* Products */;
+			productRefGroup = BCD6A24A2A93E65960D9CFF7A19AF3A7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -1169,6 +1252,7 @@
 				6C61C4B54358EE2778A1E74337B4F83C /* Alamofire-tvOS */,
 				E4E9D6FAD102A3E59090092EAFA5A1CB /* Pods-Pokedex */,
 				81A52D362151CC9F58A355157EB5C0C2 /* Pods-PokedexAppleTv */,
+				7C8E2DD424938B4ABF9183D6848C927F /* Pods-PokedexCoreData */,
 				49EE80C89B3A4FE81F4FC7A4AA2F2675 /* SDWebImage-iOS */,
 				D290485F9CA9CC62340D5EF562B705A8 /* SDWebImage-tvOS */,
 			);
@@ -1176,6 +1260,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0E0D682E4F29EC70A959CACAC49359E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		476B87A4F50C18E78B65A254EC720445 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1221,6 +1312,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4E9763962E8F21F50665EA8B560B713F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE27ADF9F9A10719286232C6E98DB813 /* Pods-PokedexCoreData-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		52F868929DF0A94B44535408A289A919 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1428,11 +1527,23 @@
 			target = 49EE80C89B3A4FE81F4FC7A4AA2F2675 /* SDWebImage-iOS */;
 			targetProxy = D557200B86D5AB4DF42F09590937CE65 /* PBXContainerItemProxy */;
 		};
+		1316F2B1ADAE015F60BF160B584C969D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire-iOS";
+			target = 9FA0D3F2F380C88414707C800CAB82D9 /* Alamofire-iOS */;
+			targetProxy = 26C816FEA671FC368CDFA08E1730CF4B /* PBXContainerItemProxy */;
+		};
 		39B6C030A857FDCF7B1A4C9181953632 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Alamofire-iOS";
 			target = 9FA0D3F2F380C88414707C800CAB82D9 /* Alamofire-iOS */;
 			targetProxy = 7EF3A11DC3A5A7A699E0615FFB28DECB /* PBXContainerItemProxy */;
+		};
+		5799BBD5576CBAB1AED2EC18282F222B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SDWebImage-iOS";
+			target = 49EE80C89B3A4FE81F4FC7A4AA2F2675 /* SDWebImage-iOS */;
+			targetProxy = D02CC345267F670253E1D6B31A3197CC /* PBXContainerItemProxy */;
 		};
 		C71C30CA660299F1CC7D10F27D741195 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1460,7 +1571,11 @@
 				INFOPLIST_FILE = "Target Support Files/Alamofire-iOS/Alamofire-iOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/Alamofire-iOS/Alamofire-iOS.modulemap";
 				PRODUCT_MODULE_NAME = Alamofire;
 				PRODUCT_NAME = Alamofire;
@@ -1528,7 +1643,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 				TVOS_DEPLOYMENT_TARGET = 12.2;
@@ -1551,7 +1667,11 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage-tvOS/SDWebImage-tvOS-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SDWebImage-tvOS/SDWebImage-tvOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/SDWebImage-tvOS/SDWebImage-tvOS.modulemap";
 				PRODUCT_MODULE_NAME = SDWebImage;
 				PRODUCT_NAME = SDWebImage;
@@ -1583,7 +1703,11 @@
 				INFOPLIST_FILE = "Target Support Files/SDWebImage-iOS/SDWebImage-iOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/SDWebImage-iOS/SDWebImage-iOS.modulemap";
 				PRODUCT_MODULE_NAME = SDWebImage;
 				PRODUCT_NAME = SDWebImage;
@@ -1614,7 +1738,11 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Alamofire-tvOS/Alamofire-tvOS-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Alamofire-tvOS/Alamofire-tvOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/Alamofire-tvOS/Alamofire-tvOS.modulemap";
 				PRODUCT_MODULE_NAME = Alamofire;
 				PRODUCT_NAME = Alamofire;
@@ -1632,7 +1760,7 @@
 		};
 		64CD50469C18F79E7F9CA1A73BE24842 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 359367E8E0EE488E72E26CC76C9A7A4E /* Pods-Pokedex.release.xcconfig */;
+			baseConfigurationReference = 437C2F8BF26CCAE6AD0D1AF56D59E2AD /* Pods-Pokedex.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1648,7 +1776,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-Pokedex/Pods-Pokedex-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Pokedex/Pods-Pokedex.modulemap";
 				OTHER_LDFLAGS = "";
@@ -1664,6 +1796,44 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		6983775F541A90EE955F9DAF10A39DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FEADA874DC873BF575598A1DEBEE130 /* Pods-PokedexCoreData.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PokedexCoreData/Pods-PokedexCoreData-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PokedexCoreData/Pods-PokedexCoreData.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		6AED10F57FC126578F192E53D08E6A3B /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1682,7 +1852,11 @@
 				INFOPLIST_FILE = "Target Support Files/Alamofire-iOS/Alamofire-iOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/Alamofire-iOS/Alamofire-iOS.modulemap";
 				PRODUCT_MODULE_NAME = Alamofire;
 				PRODUCT_NAME = Alamofire;
@@ -1695,6 +1869,45 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		726D63D1486C8DE860E51E3F0A462F31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A28611EAEEDB34408AF7E78857866D1A /* Pods-PokedexCoreData.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PokedexCoreData/Pods-PokedexCoreData-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PokedexCoreData/Pods-PokedexCoreData.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		7C0AD644CE6F4E1C42150A693EC3401C /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1712,7 +1925,11 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Alamofire-tvOS/Alamofire-tvOS-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Alamofire-tvOS/Alamofire-tvOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/Alamofire-tvOS/Alamofire-tvOS.modulemap";
 				PRODUCT_MODULE_NAME = Alamofire;
 				PRODUCT_NAME = Alamofire;
@@ -1729,7 +1946,7 @@
 		};
 		7CD0FF30B419638922DB62115F3B0180 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D827C048E46AD92CB772C7CAC6BD7D9F /* Pods-Pokedex.debug.xcconfig */;
+			baseConfigurationReference = 96DF1CB95C121460D541D51E2661947C /* Pods-Pokedex.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1745,7 +1962,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-Pokedex/Pods-Pokedex-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Pokedex/Pods-Pokedex.modulemap";
 				OTHER_LDFLAGS = "";
@@ -1842,7 +2063,11 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage-tvOS/SDWebImage-tvOS-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SDWebImage-tvOS/SDWebImage-tvOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/SDWebImage-tvOS/SDWebImage-tvOS.modulemap";
 				PRODUCT_MODULE_NAME = SDWebImage;
 				PRODUCT_NAME = SDWebImage;
@@ -1860,7 +2085,7 @@
 		};
 		D56EA4BFF3F2B90F5AE56A2C0232A960 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F5F03018BE1649A94A0EDDEA811253E /* Pods-PokedexAppleTv.debug.xcconfig */;
+			baseConfigurationReference = 644382094B19A893EAB39138DA811527 /* Pods-PokedexAppleTv.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1874,7 +2099,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-PokedexAppleTv/Pods-PokedexAppleTv-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-PokedexAppleTv/Pods-PokedexAppleTv.modulemap";
 				OTHER_LDFLAGS = "";
@@ -1908,7 +2137,11 @@
 				INFOPLIST_FILE = "Target Support Files/SDWebImage-iOS/SDWebImage-iOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/SDWebImage-iOS/SDWebImage-iOS.modulemap";
 				PRODUCT_MODULE_NAME = SDWebImage;
 				PRODUCT_NAME = SDWebImage;
@@ -1924,7 +2157,7 @@
 		};
 		F3B6EB575880A49B80BB690D657CD855 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 30FA4EC030133A552FBFDFDFBB1FF6A2 /* Pods-PokedexAppleTv.release.xcconfig */;
+			baseConfigurationReference = 83BB2BFEAA94C39DCD4792855E354BBB /* Pods-PokedexAppleTv.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1938,7 +2171,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-PokedexAppleTv/Pods-PokedexAppleTv-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-PokedexAppleTv/Pods-PokedexAppleTv.modulemap";
 				OTHER_LDFLAGS = "";
@@ -1964,6 +2201,15 @@
 			buildConfigurations = (
 				6AED10F57FC126578F192E53D08E6A3B /* Debug */,
 				10FA6AD677D9AA0CB9B8A31F9E75E93B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DF0C42EC5DDC4FF4BE38A6F40FCB85B /* Build configuration list for PBXNativeTarget "Pods-PokedexCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6983775F541A90EE955F9DAF10A39DCC /* Debug */,
+				726D63D1486C8DE860E51E3F0A462F31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
