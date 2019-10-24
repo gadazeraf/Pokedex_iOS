@@ -18,8 +18,6 @@ class PokemonCollection: NSObject {
                 switch response.result {
                 case let .success(value):
                     let jsonData = value as! NSArray
-                    print("json", jsonData[0])
-                    //let json = jsonData[0] as! NSDictionary
                     for json in jsonData {
                         let data = json as! NSDictionary
                         guard let name = data.value(forKey: "name") else { return }
@@ -41,28 +39,19 @@ class PokemonCollection: NSObject {
                             type2name = nil
                         }
                         pokemons.append(Pokemon(id: id as! Int, name: name as! String, pokedex_number: pokedex_number as! Int, height: height as! String, weight: weight as! String, desc: description as! String, pre_evolution_id: pre_evolution_id_data as? Int, type1: type1name as! String, type2: type2name))
-                        print(id, name, pre_evolution_id_data)
                     }
                 case .failure(_):
-                    print("image search error occured")
+                    fatalError("image search error occured")
                 }
             })
-        for pokemon in pokemons {
-            print("pok : ",pokemon.name)
-        }
         return pokemons
     }
     
     
     
     func all() -> [Pokemon]{
-        //var pokemons: [Pokemon] = []
         var pokemons = loadData()
         pokemons.append(Pokemon(id: 1, name: "Bulbbhasaur", pokedex_number: 1, height: "0.70", weight: "6.90", desc: "A strange seed was planted..", pre_evolution_id: nil, type1: "Grass", type2: "Poison"))
-        print("here")
-        for pokemon in pokemons {
-            print(pokemon.name)
-        }
         return pokemons
     }
 }
@@ -85,7 +74,6 @@ extension JSONDecoder {
             return .success(item)
         } catch {
             print("error trying to decode response")
-            print(error)
             return .failure(error)
         }
     }

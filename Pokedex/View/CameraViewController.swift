@@ -54,15 +54,11 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         }
     }
     
-    // MARK - IBActions
-    
     @IBAction func tappedButton(_ sender: Any) {
         self.label.text = nil
         present(imagePicker, animated: true, completion: nil)
     }
-    
-    // MARK - UIImagePickerControllerDelegate
-    
+
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         if let pickedImage = info[.originalImage] as? UIImage {
             analyzeImage(pickedImage)

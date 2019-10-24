@@ -102,15 +102,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6FL-nC-ySS">
-                                <rect key="frame" x="0.0" y="438" width="414" height="20.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6FL-nC-ySS">
+                                <rect key="frame" x="0.0" y="448" width="414" height="0.0"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k7D-Gc-gdo">
-                                <rect key="frame" x="184" y="211" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k7D-Gc-gdo">
+                                <rect key="frame" x="185" y="211" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="44" id="7uZ-Zc-Ad1"/>
+                                    <constraint firstAttribute="height" constant="44" id="ZoJ-Q3-Ltm"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="upload"/>
                                 <connections>
                                     <action selector="tappedButton:" destination="0pd-Fo-TvP" eventType="touchUpInside" id="B3h-Ku-Zvm"/>
                                 </connections>
@@ -258,4 +262,7 @@
             <point key="canvasLocation" x="602.89855072463774" y="-536.38392857142856"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="upload" width="512" height="512"/>
+    </resources>
 </document>
