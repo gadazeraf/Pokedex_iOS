@@ -11,21 +11,15 @@ import Alamofire
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    var pokemons: [Pokemon] = PokemonCollection().all()
     @IBOutlet weak var tableView: UITableView!
-    var poke: [Pokemon] = PokemonCollection().all()
+    var poke: [Pokemon] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let activityIndicator = UIActivityIndicatorView(style: .gray)
-        view.addSubview(activityIndicator)
-        activityIndicator.center = CGPoint(x: view.frame.size.width*0.5, y: view.frame.size.height*0.5)
-        activityIndicator.startAnimating()
         loadData(completionHandler: { result in
             self.poke = result
             self.tableView.reloadData()
         })
-        activityIndicator.stopAnimating()
         tableView.estimatedRowHeight = 44
         tableView.delegate = self
         tableView.dataSource = self
@@ -46,6 +40,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func loadData(completionHandler: @escaping (_ result:[Pokemon]) -> Void ){
+        let activityIndicator = UIActivityIndicatorView(style: .gray)
+        view.addSubview(activityIndicator)
+        activityIndicator.center = CGPoint(x: view.frame.size.width*0.5, y: view.frame.size.height*0.5)
+        activityIndicator.startAnimating()
+        
         var pokemons: [Pokemon] = []
         Alamofire.request("https://pokedex-mti.twitchytv.live/species")
             .responseJSON(completionHandler: { (response) in
@@ -76,9 +75,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                         self.tableView.reloadData()
                     }
                 case .failure(_):
-                    fatalError("image search error occured")
+                    fatalError("error occured")
                 }
-            completionHandler(pokemons) })
+                activityIndicator.stopAnimating()
+                completionHandler(pokemons) })
         
     }
 

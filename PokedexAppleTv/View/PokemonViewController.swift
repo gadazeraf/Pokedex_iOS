@@ -11,9 +11,8 @@ import Alamofire
 
 class PokemonViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     
-    var pokemons: [Pokemon] = PokemonCollection().all()
     @IBOutlet weak var collectionView: UICollectionView!
-    var poke: [Pokemon] = PokemonCollection().all()
+    var poke: [Pokemon] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
